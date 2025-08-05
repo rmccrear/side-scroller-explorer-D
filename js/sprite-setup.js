@@ -5,7 +5,8 @@ function setupSprites() {
   
   // Create food sprite - moving from right to left
   food = createSprite(400, 150, 30, 30);
-  food.velocityX = -1;
+  food.addAnimation('food',foodAnimation)
+  food.velocityX = randomNumber (-1,-3);
   food.velocityY = 0;
   
   // Create player sprite
