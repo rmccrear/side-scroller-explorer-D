@@ -16,7 +16,7 @@ function draw() {
   // draw the score board and other boards
   // in: display-boards.js
   showBoards();
-  
+  showHealth();
   // respond to user input 
   // in: user-controls.js
   respondToUser();
