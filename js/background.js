@@ -7,7 +7,7 @@ function drawBackground() {
 fill(255, 255, 0);
    ellipse(0, 0, 100, 100,); 
    fill(128, 128, 128); // grey color
-   rect (350, 250,)
+   rect(350, 250,)
 
    
     // Grass at the bottom (100px high)
