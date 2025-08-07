@@ -9,6 +9,10 @@ function doSpriteInteraction() {
     if(player.isTouching(enemy)) {
         health = health - 1;
     }
+
+    if(player.isTouching(enemy)) {
+        enemy.rotation = randomNumber(1,360)
+    }
 }
 
 
