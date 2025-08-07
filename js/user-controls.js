@@ -15,7 +15,7 @@ function respondToUser() {
   }
 
   //set player to stop when it reaches y=301
-  if (player.y >=340){
-    player.velocityY =0;
+  if (player.y >340){
+    player.y =340;
   }
 }
